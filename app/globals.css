@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0F0F0F;
+    --foreground: #A0A0A0;
     --primarycolour:#FF404C
   }
 }
@@ -27,7 +27,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 #home-bannar{
-  background-image: url('https://static.vecteezy.com/system/resources/previews/037/245/115/large_2x/ai-generated-beautuful-pizza-background-with-copy-space-free-photo.jpg');
+  background-image: url('https://www.savingshub.com/wp-content/uploads/2019/07/sample-banner.jpg');
   background-position: center;
   background-repeat: no-repeat;
 background-size: cover;
@@ -38,4 +38,15 @@ svg{
 bottom: 0;
 right: 0;
 left: 0;
+}
+
+#about-section{
+  /* background-color: rebeccapurple;
+  padding: 40px 0; */
+  background-image: url('https://www.alltime.ru/obj/brand/Daniel_Klein/Daniel_Klein_1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
+ 
+
 }

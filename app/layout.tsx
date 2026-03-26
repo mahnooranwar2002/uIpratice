@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import Loading from "./Loading";
+import Footer from "./components/Footer";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,10 +23,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   rel="stylesheet"
 />
           <>
-           
-            <main>{children}</main>
+       <Navbar/>         
+           <main>
+    
+              {children}</main>
+            <Footer/>
           </>
      
+
       </body>
     </html>
   );
